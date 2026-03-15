@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 60" fill="none">
+  <!-- Ship icon -->
+  <g transform="translate(10, 12)">
+    <g style="transform: rotate(-45deg); transform-origin: 26px 18px;">
+      <polygon points="44,18 8,6 13,18 8,30" fill="none" stroke="#E0E8FF" stroke-width="2.5" stroke-linejoin="miter"/>
+      <line x1="30" y1="12" x2="30" y2="24" stroke="#E0E8FF" stroke-width="1.5" opacity="0.5"/>
+      <circle cx="42" cy="18" r="1.2" fill="none" stroke="#E0E8FF" stroke-width="1.5"/>
+      <line x1="16" y1="9" x2="16" y2="15" stroke="#E0E8FF" stroke-width="1.2" opacity="0.4"/>
+      <line x1="16" y1="21" x2="16" y2="27" stroke="#E0E8FF" stroke-width="1.2" opacity="0.4"/>
+    </g>
+  </g>
+  <!-- Text -->
+  <text x="68" y="40" font-family="Outfit, system-ui, -apple-system, sans-serif" font-weight="700" font-size="30" fill="#E0E8FF" letter-spacing="-0.5">Launchmatic</text>
+</svg>

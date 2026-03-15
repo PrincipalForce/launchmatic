@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200">
+  <rect width="800" height="200" rx="12" fill="#050505"/>
+  <!-- Grid dots -->
+  <g opacity="0.08">
+    <circle cx="50" cy="50" r="1" fill="#E0E8FF"/><circle cx="100" cy="50" r="1" fill="#E0E8FF"/>
+    <circle cx="150" cy="50" r="1" fill="#E0E8FF"/><circle cx="200" cy="50" r="1" fill="#E0E8FF"/>
+    <circle cx="250" cy="50" r="1" fill="#E0E8FF"/><circle cx="300" cy="50" r="1" fill="#E0E8FF"/>
+    <circle cx="350" cy="50" r="1" fill="#E0E8FF"/><circle cx="400" cy="50" r="1" fill="#E0E8FF"/>
+    <circle cx="450" cy="50" r="1" fill="#E0E8FF"/><circle cx="500" cy="50" r="1" fill="#E0E8FF"/>
+    <circle cx="550" cy="50" r="1" fill="#E0E8FF"/><circle cx="600" cy="50" r="1" fill="#E0E8FF"/>
+    <circle cx="650" cy="50" r="1" fill="#E0E8FF"/><circle cx="700" cy="50" r="1" fill="#E0E8FF"/>
+    <circle cx="750" cy="50" r="1" fill="#E0E8FF"/>
+    <circle cx="50" cy="100" r="1" fill="#E0E8FF"/><circle cx="100" cy="100" r="1" fill="#E0E8FF"/>
+    <circle cx="150" cy="100" r="1" fill="#E0E8FF"/><circle cx="200" cy="100" r="1" fill="#E0E8FF"/>
+    <circle cx="250" cy="100" r="1" fill="#E0E8FF"/><circle cx="300" cy="100" r="1" fill="#E0E8FF"/>
+    <circle cx="350" cy="100" r="1" fill="#E0E8FF"/><circle cx="400" cy="100" r="1" fill="#E0E8FF"/>
+    <circle cx="450" cy="100" r="1" fill="#E0E8FF"/><circle cx="500" cy="100" r="1" fill="#E0E8FF"/>
+    <circle cx="550" cy="100" r="1" fill="#E0E8FF"/><circle cx="600" cy="100" r="1" fill="#E0E8FF"/>
+    <circle cx="650" cy="100" r="1" fill="#E0E8FF"/><circle cx="700" cy="100" r="1" fill="#E0E8FF"/>
+    <circle cx="750" cy="100" r="1" fill="#E0E8FF"/>
+    <circle cx="50" cy="150" r="1" fill="#E0E8FF"/><circle cx="100" cy="150" r="1" fill="#E0E8FF"/>
+    <circle cx="150" cy="150" r="1" fill="#E0E8FF"/><circle cx="200" cy="150" r="1" fill="#E0E8FF"/>
+    <circle cx="250" cy="150" r="1" fill="#E0E8FF"/><circle cx="300" cy="150" r="1" fill="#E0E8FF"/>
+    <circle cx="350" cy="150" r="1" fill="#E0E8FF"/><circle cx="400" cy="150" r="1" fill="#E0E8FF"/>
+    <circle cx="450" cy="150" r="1" fill="#E0E8FF"/><circle cx="500" cy="150" r="1" fill="#E0E8FF"/>
+    <circle cx="550" cy="150" r="1" fill="#E0E8FF"/><circle cx="600" cy="150" r="1" fill="#E0E8FF"/>
+    <circle cx="650" cy="150" r="1" fill="#E0E8FF"/><circle cx="700" cy="150" r="1" fill="#E0E8FF"/>
+    <circle cx="750" cy="150" r="1" fill="#E0E8FF"/>
+  </g>
+  <!-- Ambient glow -->
+  <ellipse cx="400" cy="100" rx="300" ry="80" fill="url(#glow)" opacity="0.15"/>
+  <defs>
+    <radialGradient id="glow">
+      <stop offset="0%" stop-color="#7C9EFF"/>
+      <stop offset="100%" stop-color="transparent"/>
+    </radialGradient>
+  </defs>
+  <!-- Ship icon -->
+  <g transform="translate(305, 45)">
+    <g style="transform: rotate(-45deg); transform-origin: 26px 18px;">
+      <polygon points="44,18 8,6 13,18 8,30" fill="none" stroke="#E0E8FF" stroke-width="2.5" stroke-linejoin="miter"/>
+      <line x1="30" y1="12" x2="30" y2="24" stroke="#E0E8FF" stroke-width="1.5" opacity="0.5"/>
+      <circle cx="42" cy="18" r="1.2" fill="none" stroke="#E0E8FF" stroke-width="1.5"/>
+      <line x1="16" y1="9" x2="16" y2="15" stroke="#E0E8FF" stroke-width="1.2" opacity="0.4"/>
+      <line x1="16" y1="21" x2="16" y2="27" stroke="#E0E8FF" stroke-width="1.2" opacity="0.4"/>
+    </g>
+  </g>
+  <!-- Title -->
+  <text x="400" y="125" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="36" fill="#E0E8FF" letter-spacing="-0.5">Launchmatic</text>
+  <!-- Tagline -->
+  <text x="400" y="155" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-weight="400" font-size="14" fill="#6B7288">Deploy any app in seconds</text>
+</svg>

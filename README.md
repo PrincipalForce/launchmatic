@@ -1,12 +1,5 @@
 <p align="center">
-  <img src="https://app.launchmatic.io/logo.svg" alt="Launchmatic" width="60" />
-</p>
-
-<h1 align="center">Launchmatic</h1>
-
-<p align="center">
-  <strong>Deploy any app in seconds.</strong><br />
-  The fastest way to go from code to live URL.
+  <img src=".github/banner.svg" alt="Launchmatic" width="700" />
 </p>
 
 <p align="center">
